@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="index .css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- ***************** -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css
+    "
+    />
+
+    <title>Homepage</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="firstline">
+        <div id="leftside">
+          <p class="hov">BUSINESS, EDU & GOV</p>
+          <p class="hov">ADORAMA RENTALS</p>
+          <p class="hov">PRINTIQUE</p>
+          <p class="hov">OUR BLOG</p>
+        </div>
+
+        <div id="rightside">
+          <p class="hov">
+            <i class="fa-solid fa-phone fa-sl"></i> 800.223.2500
+          </p>
+          <p class="hov"><i class="fa-regular fa-comment"></i> Live Chat</p>
+
+          <p class="hov"><i class="fa-solid fa-circle-info"></i> Help</p>
+        </div>
+      </div>
+
+      <div id="secondline">
+        <div id="secleft">
+          <img
+            src=""
+            alt="error"
+          />
+        </div>
+        <div id="secright">
+          <div id="forsearch">
+            <input
+              type="search"
+              name="search"
+              id="in"
+              placeholder="search"
+            />
+          </div>
+
+          <div id="signcart">
+            <div id="drop">
+              <ul>
+                <i class="fa-solid fa-user fa-2xl"></i>
+
+                Sign In
+                <br />
+                my account<i class="fa-solid fa-chevron-down"></i>
+
+                <ul id="dropdown">
+                  <div id="do">
+                    <li>
+                      <a href=""
+                        ><i class="fa-solid fa-user"> </i> My Account</a
+                      >
+                    </li>
+
+                    <li>
+                      <a href="">
+                        <i class="fa-solid fa-bag-shopping"></i> My Orders
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href=""
+                        ><i class="fa-regular fa-heart"></i> Wishlists
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i class="fa-solid fa-location-dot"></i> Address Book
+                      </a>
+                    </li>
+
+                    <li id="logg"><a href="">Log In|Register </a></li>
+                  </div>
+                </ul>
+              </ul>
+            </div>
+            <i class="fa-solid fa-cart-shopping fa-2x"></i>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div id="Lastline">
+        <div id="lastleft">
+          <p class="hov">Products</p>
+          <p class="hov">Brands</p>
+          <p class="hov">Used</p>
+          <p class="hov">Deals</p>
+        </div>
+
+        <div id="lastright">
+          <p class="hov">Deal of the Day</p>
+          <p class="hov">Adorama Credit Card</p>
+          <p class="hov">VIP Rewards</p>
+          <p class="hov">Gift Cards</p>
+          <p class="hov">Students</p>
+          <p class="hov">#CreateNoMatterWhat</p>
+        </div>
+      </div>
+    </nav>
+    <!-- /*******************************/ -->
+    <div class="slider-container">
+      <div class="slide">
+        <img
+          src="https://www.adorama.com/images/cms/36471NPA-Sony-50mm-GM-Hero-Desktop-v2@1.25x_19452.jpg"
+          alt=""
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="https://www.adorama.com/images/cms/36471Hero-Presidents-Day-Sale-Desktop@2x_10411.jpg"
+          alt=""
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="https://www.adorama.com/images/cms/36471Adorama-Edge-Presidents-Week-Hero-Desktop@1.5x_67252.jpg"
+          alt=""
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="https://www.adorama.com/images/cms/36471Feb_Computer_and_Gaming_Week-Hero-Desktop_09496.jpg"
+          alt=""
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="https://www.adorama.com/images/cms/36471Hero-Semi-Annual-Desktop@2x_11210.jpg"
+          alt=""
+        />
+      </div>
+      <span
+        class="arrow prev"
+        onclick="arrowcontrer(-1)"
+        ><i class="fa-solid fa-less-than fa-2x"></i
+      ></span>
+      <span
+        class="arrow next"
+        onclick="arrowcontrer(1)"
+        ><i class="fa-solid fa-greater-than fa-2x"></i
+      ></span>
+    </div>
+
+    <!-- ******************timerpart************* -->
+    <div id="backgroundblue">
+      <div id="textpart">
+        <span>Deal of the Day </span> <br />
+        <p>CHECK BACK FOR NEW DEALS EVERY DAY</p>
+      </div>
+
+      <div id="imagepart">
+        <div id="imageee">
+          <img
+            src="https://www.adorama.com/images/Large/pl14q1whtgry.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <p id="dd">Pelican 14QT Personal Cooler, White/Gray</p>
+          <div id="btttn"><button>View Deal</button></div>
+        </div>
+      </div>
+
+      <div id="containerwatch">
+        <div class="time">
+          <p id="day">30</p>
+          <span class="text">days</span>
+        </div>
+
+        <div class="time">
+          <p id="Hour">00</p>
+          <span class="text">Hour</span>
+        </div>
+
+        <div class="time">
+          <p id="min">00</p>
+          <span class="text">Min</span>
+        </div>
+
+        <div class="time">
+          <p id="sec">00</p>
+          <span class="text">Sec</span>
+        </div>
+      </div>
+    </div>
+    <!-- ************************************************************************************************************************* -->
+    <div id="multi">
+      <div id="topdeal">
+        <p>OUR TOP DEALS</p>
+      </div>
+      <div id="grid">
+        <div
+          class="allcard"
+          id="c1"
+        >
+          <img
+            src="https://www.adorama.com/images/product/car5.jpg"
+            alt=""
+          />
+          <p>Canon EOS R5 Mirrorless Digital Camera Body</p>
+          <div id="starts">
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <p>$3,899.00</p>
+          <p>Instant Rebate -$200.00</p>
+          <p>Price: $3,699.00</p>
+          <p>INCLUDES FREE</p>
+        </div>
+
+        <div
+          class="allcard"
+          id="c2"
+        >
+          <img
+            src="https://www.adorama.com/images/product/zoomlioniii_1.jpg"
+            alt=""
+          />
+
+          <p>int Zoom Li-on III R2 TTL Speedlight Flash for Nikon Cameras</p>
+          <div id="starts">
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <p>$3,899.00</p>
+          <p>Instant Rebate -$60.00</p>
+          <p>Price: $169.00</p>
+          <p>INCLUDES FREE</p>
+        </div>
+        <div
+          class="allcard"
+          id="c3"
+        >
+          <img
+            src="https://www.adorama.com/images/product/sobeam2bb.jpg"
+            alt=""
+          />
+          <p>
+            arn how. FPLFSMZLNIII Flashpoint Zoom Li-on III R2 TTL Speedlight
+          </p>
+          <div id="starts">
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <p>$1,899.00</p>
+          <p>Instant Rebate -$70.00</p>
+          <p>Price: $1,399.00</p>
+          <p>INCLUDES FREE</p>
+        </div>
+        <div
+          class="allcard"
+          id="c4"
+        >
+          <img
+            src="https://www.adorama.com/images/product/fplfsmfbjr.jpg"
+            alt=""
+          />
+          <p>FlashBack junior retro Camera Flash(red)</p>
+          <div id="starts">
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <p>$79.00</p>
+          <p>Instant Rebate -$20.00</p>
+          <p>Price: $99.00</p>
+        </div>
+        <div
+          class="allcard"
+          id="c5"
+        >
+          <img
+            src="https://www.adorama.com/images/product/acmgn63lla.jpg"
+            alt=""
+          />
+          <p>MacBook Air 133.3</p>
+          <div id="starts">
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <p>999.00</p>
+          <p>Instant Rebate -$100.00</p>
+          <p>Price: $899.00</p>
+        </div>
+        <div
+          class="allcard"
+          id="c6"
+        >
+          <img
+            src="https://www.adorama.com/images/product/sg150600soec.jpg"
+            alt=""
+          />
+          <p>sigma150-600mm</p>
+          <div id="starts">
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="icons8-star-50.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <p>$1,899.00</p>
+
+          <p>Price: $1,699.00</p>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <div id="shopbtcata">
+      <div><p>SHOP BY CATEGORY</p></div>
+      <div id="mainflex">
+        <div class="allclassess">
+          <a href="">
+            <img
+              src="https://www.adorama.com/col/images/category-icons/icon-category-cameras.png"
+              alt=""
+            />
+            <p>Cameras</p>
+          </a>
+        </div>
+        <div class="allclassess">
+          <a href="">
+            <img
+              src="https://www.adorama.com/col/images/category-icons/icon-category-lenses.png"
+              alt=""
+            />
+            <p>Lenses</p>
+          </a>
+        </div>
+        <div class="allclassess">
+          <a href=""
+            ><img
+              src="https://www.adorama.com/col/images/category-icons/icon-category-lighting.png"
+              alt=""
+            />
+            <p>Lighting</p></a
+          >
+        </div>
+
+        <div class="allclassess">
+          <a href="">
+            <img
+              src="https://www.adorama.com/col/images/category-icons/icon-category-computers.png"
+              alt=""
+            />
+            <p>Computers</p>
+          </a>
+        </div>
+        <div class="allclassess">
+          <a href=""
+            ><img
+              src="https://www.adorama.com/col/images/category-icons/icon-category-video.png"
+              alt=""
+            />
+            <p>Video</p></a
+          >
+        </div>
+        <div class="allclassess">
+          <a href="">
+            <img
+              src="https://www.adorama.com/col/images/category-icons/icon-category-optics.png"
+              alt=""
+            />
+            <p>Optics</p>
+          </a>
+        </div>
+        <div class="allclassess">
+          <a href="">
+            <img
+              src="https://www.adorama.com/col/images/category-icons/icon-category-drones.png"
+              alt=""
+            />
+            <p>Drones</p>
+          </a>
+        </div>
+        <div class="allclassess">
+          <a href=""
+            ><img
+              src="https://www.adorama.com/col/images/category-icons/icon-category-headphones.png"
+              alt=""
+            />
+            <p>Headphones</p></a
+          >
+        </div>
+        <div class="allclassess">
+          <a href=""
+            ><img
+              src="https://www.adorama.com/col/images/category-icons/icon-category-mics.png"
+              alt=""
+            />
+            <p>Microphones</p></a
+          >
+        </div>
+        <div class="allclassess">
+          <a href=""
+            ><img
+              src="https://www.adorama.com/col/images/category-icons/icon-category-audio.png"
+              alt=""
+            />
+            <p>Audio</p></a
+          >
+        </div>
+        <div class="allclassess">
+          <a href=""
+            ><img
+              src="https://www.adorama.com/col/images/category-icons/icon-category-hometheater.png"
+              alt=""
+            />
+            <p>Home Theater</p></a
+          >
+        </div>
+        <div class="allclassess">
+          <a href=""
+            ><img
+              src="https://www.adorama.com/col/images/category-icons/icon-category-homeoffice.png"
+              alt=""
+            />
+            <p>Home Office</p></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- *********************************************** -->
+    <div id="yamha">
+      <div>
+        <img
+          src="https://www.adorama.com/images/cms/36471Yamaha_HE_Sale-Spotlight-Large-Desktop_62650.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- ********************************* -->
+    <div id="twopic">
+      <div>
+        <img
+          src="https://www.adorama.com/images/cms/36471Westcott_Backdrop_-_NPA-Spotlight-Desktop_11120.jpg"
+          alt=""
+        />
+        <h4>Smooth & Seamless for Studio & Travel</h4>
+        <p>
+          New Wrinkle-Resistant Colored Backdrops for photographers who need to
+          work fast and travel light. Easy to use, machine-washable, and
+          reflection-free.
+        </p>
+        <a href="">Shop Now</a>
+      </div>
+      <div>
+        <img
+          src="https://www.adorama.com/images/cms/36471Canon_XA60_FREE_BATTERY-Spotlight-Desktop_49158.jpg"
+          alt=""
+        />
+        <h4>Free Battery with XA60 Camcorder</h4>
+        <p>
+          Purchase an XA60 & Receive a Free Canon BP-828 2670mAh Lithium-Ion
+          Battery Pack valued at $149.99. Now through March 31st, 2023.
+        </p>
+
+        <a href="">Shop Now</a>
+      </div>
+    </div>
+
+    <!-- ******************************************** -->
+    <div id="siximgs">
+      <div class="imageeoverone">
+        <img
+          src="https://www.adorama.com/col/UIimages/homepage/evergreen-banners/Callout_Image_Used.jpg"
+          alt=""
+        />
+        <div class="foroverone">
+          <p>Shop Pre-Owned</p>
+
+          <p>Save Money On Used,</p>
+          <p>Open Box, and Refurbished</p>
+
+          <p>Equipment & Electronics.</p>
+
+          <p><a href="">Shop Now</a></p>
+        </div>
+      </div>
+
+      <div class="imageeoverone">
+        <img
+          src="https://www.adorama.com/col/UIimages/homepage/evergreen-banners/Callout_Image_Sell.jpg"
+          alt=""
+        />
+        <div class="foroverone">
+          <p>Sell or Trade</p>
+
+          <p>Exchange Your Gear For Used Items</p>
+          <p>Cash or Credit Toward Future Purchases.</p>
+
+          <p><a href="">Get A Quote</a></p>
+        </div>
+      </div>
+      <div class="imageeoverone">
+        <img
+          src="https://www.adorama.com/col/UIimages/homepage/evergreen-banners/Callout_Students.jpg"
+          alt=""
+        />
+        <div class="foroverone">
+          <p>Students GearUP</p>
+
+          <p>Exclusive student discounts on</p>
+          <p>products in photography, video, audio, & more.</p>
+
+          <p><a href="">Register Now</a></p>
+        </div>
+      </div>
+
+      <div class="imageeoverone">
+        <img
+          src="https://www.adorama.com/col/UIimages/homepage/evergreen-banners/Callout_Rentals.jpg"
+          alt=""
+        />
+        <div class="foroverone">
+          <p>The Gadget Zone Rentals</p>
+
+          <p>Providing the creative</p>
+          <p>community with cameras</p>
+          <p>lenses, lighting & grip with</p>
+          <p>two convenient locations .</p>
+
+          <p><a href="">Get Started</a></p>
+        </div>
+      </div>
+      <div class="imageeoverone">
+        <img
+          src="https://www.adorama.com/col/UIimages/homepage/evergreen-banners/Callout_Image_ABS.jpg"
+          alt=""
+        />
+        <div class="foroverone">
+          <p>The Gadget Zone Business</p>
+
+          <p>Schedule a consultation,</p>
+          <p>browse financing</p>
+          <p>options & purchase</p>
+          <p>gear for your corporate,</p>
+
+          <p>educational or government</p>
+          <p>institution.</p>
+
+          <p><a href="">Enter Now</a></p>
+        </div>
+      </div>
+      <div class="imageeoverone">
+        <img
+          src="https://www.adorama.com/col/UIimages/homepage/evergreen-banners/Callout_Printique.jpg"
+          alt=""
+        />
+        <div class="foroverone">
+          <p>Printique</p>
+
+          <p>Discover a world of options for printing and</p>
+          <p>preserving your photographs.</p>
+
+          <p><a href="">Visit Printique</a></p>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- *********************************************************************************************************************************************************************** -->
+    <div class="swiper">
+      <h3>FEATURED BRANDS</h3>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="divv">
+            <img
+              src="https://www.adorama.com/artworks2/Canon_logo.gif"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="divv">
+            <img
+              src="https://www.adorama.com/artworks2/Apple_brand_logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="divv">
+            <img
+              src="https://www.adorama.com/artworks2/Flashpoint_logo_blue.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="divv">
+            <img
+              src="	https://www.adorama.com/artworks2/Sony_brand_logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="divv">
+            <img
+              src="	https://www.adorama.com/artworks2/Fujifilm_brand_logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="divv">
+            <img
+              src="https://www.adorama.com/artworks2/Panasonic_brand_logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="divv">
+            <img
+              src="	https://www.adorama.com/artworks2/Bose_logo.gif"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="divv">
+            <img
+              src="	https://www.adorama.com/artworks2/Blackmagic_brand_logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="divv">
+            <img
+              src="https://www.adorama.com/artworks2/Microsoft_logo.gif"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="divv">
+            <img
+              src="https://www.adorama.com/artworks2/Profoto_logo.gif
+              "
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <!-- *************************** -->
+    <div id="article">
+      <h3>Photography Equipment, Video Gear, and Electronics</h3>
+      <p>
+        We are the world's only full-service destination for photo, video and
+        electronics. We're more than a camera store—we offer the best selection
+        and prices on professional photography and video gear, pro-audio, and
+        consumer electronics such as home theaters , desktop computers, laptops,
+        iPads, home office equipment and more. Equip your creativity with the
+        best & newest Mirrorless, Point & Shoot, and DSLR photography equipment
+        from brands like Sony, Canon and Nikon, or shop for the latest in smart
+        tech, gaming, drones, musical instruments and recording studio gear.
+      </p>
+      <h4>Exclusive Savings All Year Long</h4>
+      <p>
+        For savings you won't find anywhere else and for weekly trending deals
+        on top products from industry leading brands, browse Deals, Used, Deal
+        Of The Day, only at Gadget zone.
+      </p>
+    </div>
+    <!-- *****************************************************************************************************  -->
+
+
+
+
+
+
+
+    <div id="visitour">
+      <div class="secondlastt">
+        <div class="circle">
+          <i class="fa-solid fa-phone fa-2xl"></i>
+        </div>
+        <p>Give Us A Call</p>
+        Questions? We’re happy to help! Call us at
+       800-223-2500</p>
+      </div>
+
+      <div class="secondlastt">
+        <div class="circle">
+          <i class="fa-solid fa-message fa-2xl"></i>
+        </div>
+        <p>Chat Now</p>
+        <p>Need help or have product questions? Chat with an expert.</p>
+       
+      </div>
+      <div class="secondlastt">
+        <div class="circle">
+          <i class="fa-solid fa-user fa-2xl"></i>
+        </div>
+        <p>
+          Help Center</p>
+        <p>For info on shipping, returns, orders and more, find answers here.</p>
+        
+      </div>
+      <div class="secondlastt">
+        <div class="circle">
+          <i class="fa-solid fa-location-dot fa-2xl"></i>
+        </div>
+        <p>Visit Our Stores</p>
+        <p>Visit our NYC store for shopping,
+          services, repairs, and more.</p>
+        
+      </div>
+    </div>
+    </div>
+
+
+    <!-- ******************************************************************************** -->
+    <footer id="footer">
+      <div class="classfooter">
+     <h3> How Can We Help?</h3>
+</p>Customer Service</p>
+      <p>Track Your Order</p>
+      <p>Shipping & Delivery</p>
+      <p>In-Store Pickup</p>
+      <p>International Orders</p>
+     <p> Return Policy</p>
+     <p> Contact Us</p>
+      <p>Warranties</p>
+      <p>Accessibility Policy</p>
+    </div>
+    <div class="classfooter">
+      <h3>Services & Programs</h3>
+ <p>Adorama Business, Education, & Government</p>
+<p>Adorama Edge Credit Card</p>
+<p>VIP Rewards</p>
+<p>Students </p>
+<p>Adorama Protect</p>
+<p>Photo Printing</p>
+<p>Camera Rentals</p>
+<p>Sell Used Equipment</p>
+<p>Authorized Apple Service</p>
+    </div>
+    <div class="classfooter">
+     <h3> Who We Are</h3>
+<p>About Adorama</p>
+<p>Our History</p>
+<p>Creator Highlights</p>
+<p>Adorama Reviews</p>
+<p>Map & Directions</p>
+<p>Events</p>
+<p>Learning Center</p>
+<p>Brands</p>
+<p>Affiliate Program</p>
+<p>Careers<p>
+    </div>
+    <div class="classfooter">
+      <h3>Newsletter Signup</h3>
+<p>Sign up for special offers, product news, exclusive deals, and more. Plus, VIP Reward Members earn $10 in reward points, $20 for VIP Pro members when they sign up through 2/28/23.</p>
+<input type="email" name="" id="" placeholder="Your Email">
+
+<input type="submit" value="submit" placeholder="submit">
+<br>
+
+<div>
+  <p>Follow Us</p>
+  <div>
+    <i class="fa-brands fa-facebook fa-2x"></i>
+    <i class="fa-brands fa-instagram fa-2x"></i>
+    <i class="fa-brands fa-youtube fa-2x"></i>
+    <i class="fa-brands fa-tiktok fa-2x"></i>
+    <i class="fa-brands fa-twitter fa-2x"></i>
+  </div>
+</div>
+
+    </div>
+    </footer>
+<div id="lastlinee">
+  <p>Copyright Adorama Camera, Inc. All rights reserved.</p>
+  <img src="https://adorama.com/artworks2/icon-BBB.png" alt="">
+</div>
+  </body>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
+</html>
