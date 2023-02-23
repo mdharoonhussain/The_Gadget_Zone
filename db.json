@@ -1,0 +1,185 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "brand": "Panasonic",
+        "image": "https://www.adorama.com/images/product/ipczs80bak.jpg",
+        "category": "cameras",
+        "title": "New Arrival - Panasonic LUMIX DC-ZS80D Digital Camera, Black with Accessories Kit",
+        "Desc": "Optical Zoom: 30x Optical ZoomResolution: 20 MPConfiguration: Includes Camera BundleDigital Zoom: 4x Optical ZoomKit Style: Accessories Kit",
+        "price": "Rs. 32999"
+      },
+      {
+        "id": 2,
+        "brand": "Canon",
+        "image": "https://www.adorama.com/images/product/cark2.jpg",
+        "category": "cameras",
+        "title": "Canon EOS R Mirrorless Digital Camera with RF 24-105mm f/4-7.1 IS STM Lens",
+        "Desc": "Sensor Size: Full Frame Camera FormatResolution: 30 MPMax Video Quality: 4K 30fpsLens Included: 24-105mm STMIn-Body Stabilization: 5-Axis DigitalConfiguration: Body & LensWifi: Yes",
+        "price": "Rs. 140999"
+      },
+      {
+        "id": 3,
+        "brand": "Nikon",
+        "image": "https://www.adorama.com/images/product/nkz6m2l3a.jpg",
+        "category": "cameras",
+        "title": "Nikon Z 6II Mirrorless Digital Camera with 70-200mm f/2.8 VR S Lens, FTZ Adapter",
+        "Desc": "Sensor Size: Full Frame Camera FormatResolution: 24 MPMax Video Quality: 4K 30fpsLens Included: 70-200mmIn-Body Stabilization: 5-Axis OpticalConfiguration: Body & Lens & KitWifi: Yes",
+        "price": "Rs. 401999"
+      },
+      {
+        "id": 4,
+        "brand": "Coleman",
+        "image": "https://www.adorama.com/images/product/coc40wpbk.jpg",
+        "category": "cameras",
+        "title": "Coleman C40WP 20MP VentureHD Underwater Digital Camera, Black",
+        "Desc": "Optical Zoom: 1x Optical ZoomResolution: 20 MPConfiguration: Includes Camera OnlyDigital Zoom: 8x Optical Zoom",
+        "price": "Rs. 7399"
+      },
+      {
+        "id": 5,
+        "brand": "Hassleblad",
+        "image": "https://www.adorama.com/images/product/hs907x50cae.jpg",
+        "category": "cameras",
+        "title": "Hasselblad 907X Anniversary Edition Kit",
+        "Desc": "Model: Model# Hasselblad 907X 50CResolution: 50 MPConfiguration: Includes Body & Lens",
+        "price": "Rs. 101999"
+      },
+      {
+        "id": 6,
+        "brand": "Kodak",
+        "image": "https://www.adorama.com/images/product/ikkaz425bk.jpg",
+        "category": "cameras",
+        "title": "New Arrival - KODAK PIXPRO Astro Zoom AZ425 Digital Camera, Black",
+        "Desc": "Optical Zoom: 42x Optical ZoomResolution: 20 MPConfiguration: Includes Camera OnlyDigital Zoom: 4x Optical Zoom",
+        "price": "Rs. 16999"
+      },
+      {
+        "id": 7,
+        "brand": "Sony",
+        "image": "https://www.adorama.com/images/product/isoa7m4l3.jpg",
+        "category": "cameras",
+        "title": "Sony Alpha a7 IV Mirrorless Digital Camera with FE 70-200mm f/2.8 GM OSS II Lens",
+        "Desc": "Sensor Size: Full Frame Camera FormatResolution: 34 MPMax Video Quality: 4K 30fpsLens Included: 70-200mmIn-Body Stabilization: 5-Axis DigitalConfiguration: Body & LensWifi: Yes",
+        "price": "Rs. 401099"
+      },
+      {
+        "id": 8,
+        "brand": "Pentax",
+        "image": "https://www.adorama.com/images/product/ipxk12.jpg",
+        "category": "cameras",
+        "title": "Pentax K-1 Mark II DSLR Camera Body",
+        "Desc": "Lens Included: Without LensResolution: 36MPFrames Per Second: 4.4 fps continuous shooting",
+        "price": "Rs. 48999"
+      },
+      {
+        "id": 9,
+        "brand": "Hamilton Buhl",
+        "image": "https://www.adorama.com/images/product/hbcam17sv.jpg",
+        "category": "cameras",
+        "title": "HamiltonBuhl VividPro 18MP 8x Optical Zoom Lens Digital Camera",
+        "Desc": "Optical Zoom: 3x Optical ZoomResolution: 8 MPConfiguration: Includes Camera BundleDigital Zoom: 5x Optical Zoom",
+        "price": "Rs. 9999"
+      },
+      {
+        "id": 10,
+        "brand": "Sigma",
+        "image": "https://www.adorama.com/images/product/sgfp.jpg",
+        "category": "cameras",
+        "title": "Sigma fp Mirrorless Digital Camera",
+        "Desc": "Sensor Size: Full Frame Camera FormatResolution: 24 MPMax Video Quality: 4K 30fpsLens Included: Without LensIn-Body Stabilization: 5-Axis DigitalConfiguration: Body OnlyWifi: No",
+        "price": "Rs. 57999"
+      },
+      {
+        "id": 11,
+        "brand": "Canon",
+        "image": "https://www.adorama.com/images/product/car2470.jpg",
+        "category": "lenses",
+        "title": "Canon RF 24-70mm f/2.8 L IS USM Lens Includes Free $89.95 3Pod TREK",
+        "Desc": "Lens Format: Full FrameZoom Focal Length: Focal Length: 24-70mmSpecial Features: Image Stabilization, Weather Resistant",
+        "price": "Rs. 60999"
+      },
+      {
+        "id": 12,
+        "brand": "Kipon",
+        "image": "https://www.adorama.com/images/product/kal5024seb.jpg",
+        "category": "lenses",
+        "title": "Kipon IBERIT 50mm f/2.4 Lens for Sony E, Black",
+        "Desc": "Lens Format: Full FrameFixed Focal Length: Focal Length: 50mm",
+        "price": "Rs. 26999"
+      },
+      {
+        "id": 13,
+        "brand": "Leica",
+        "image": "https://www.adorama.com/images/product/lc1635sl.jpg",
+        "category": "lenses",
+        "title": "Leica Super-Vario-Elmarit-SL 16-35mm f/3.5-4.5 Aspherical Lens for Leica SL/T",
+        "Desc": "Lens Format: Full FrameZoom Focal Length: Focal Length: 16-35mmSpecial Features: Aspherical",
+        "price": "Rs. 101990"
+      },
+      {
+        "id": 14,
+        "brand": "Meike",
+        "image": "https://www.adorama.com/images/product/mk828mft.jpg",
+        "category": "lenses",
+        "title": "Meike 8mm f/2.8 Prime Lens for Micro Four Thirds",
+        "Desc": "Lens Format: Micro Four ThirdsFixed Focal Length: Focal Length: 8mm",
+        "price": "Rs. 33990"
+      },
+      {
+        "id": 15,
+        "brand": "Nikon",
+        "image": "https://www.adorama.com/images/product/nkz5012.jpg",
+        "category": "lenses",
+        "title": "Nikon NIKKOR Z 50mm f/1.2 S Lens",
+        "Desc": "Lens Format: Full FrameFixed Focal Length: Focal Length: 50mmSpecial Features: Aspherical",
+        "price": "Rs. 120990"
+      },
+      {
+        "id": 16,
+        "brand": "Panasonic",
+        "image": "https://www.adorama.com/images/product/pcs70200.jpg",
+        "category": "lenses",
+        "title": "Panasonic Lumix S PRO 70-200mm f/4 Lens for Leica L",
+        "Desc": "Being an f/4 lens, it is small and lighter than most 70-200 lenses which is fine for me as a wedding photographer. This lens delivers sharp images with amazing bokeh at f/4.",
+        "price": "Rs. 124999"
+      },
+      {
+        "id": 17,
+        "brand": "Sigma",
+        "image": "https://www.adorama.com/images/product/sg60600l.jpg",
+        "category": "lenses",
+        "title": "New Arrival - Sigma 60-600mm f/4.5-6.3 DG DN OS Sports Lens for Leica L",
+        "Desc": "Lens Format: Full FrameZoom Focal Length: Focal Length: 60-600mmSpecial Features: Dustproof/Splashproof, Image Stabilization, Weather Resistant",
+        "price": "Rs. 81990"
+      },
+      {
+        "id": 18,
+        "brand": "Sony",
+        "image": "https://www.adorama.com/images/product/iso8514gm.jpg",
+        "category": "lenses",
+        "title": "Sony FE 85mm f/1.4 GM Lens for Sony E",
+        "Desc": "Lens Format: Full FrameFixed Focal Length: Focal Length: 85mmSpecial Features: Aspherical      ",
+        "price": "Rs. 149990"
+      },
+      {
+        "id": 19,
+        "brand": "Venus",
+        "image": "https://www.adorama.com/images/product/ve8556fe.jpg",
+        "category": "lenses",
+        "title": "Venus Laowa 85mm f/5.6 Ultra Macro APO Lens for Sony FE",
+        "Desc": "Lens Format: Full FrameFixed Focal Length: Focal Length: 85mm      ",
+        "price": "Rs. 37599"
+      },
+      {
+        "id": 20,
+        "brand": "Fujifilm",
+        "image": "https://www.adorama.com/images/product/ifj502xfb.jpg",
+        "category": "lenses",
+        "title": "Fujifilm XF 50mm f/2 WR Lens, Black",
+        "Desc": "The 50mm f/2 is my favouite Fujifilm portrait lens. It's super lightweight, weather sealed and produces beautiful creamy bokeh. The 50mm f/2 pretty much comes with me at all times and I also love using it as a street photography lens.",
+        "price": "Rs. 32999"
+      }
+    ]
+  }
+  
