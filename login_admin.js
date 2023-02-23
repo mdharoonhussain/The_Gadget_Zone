@@ -8,7 +8,7 @@ formEl.addEventListener("submit", (e) => {
   console.log("inside event listener");
   console.log(mailEl.value, passwordEl.value);
   if (mailEl.value == "admin" && passwordEl.value == "admin") {
-    window.location.href = "dashboard.html";
+    window.location.href = "login_admin_dashboard.html";
   } else {
     alert("Wrong Credentials");
   }
