@@ -26,7 +26,7 @@ function arrowcontrer(x) {
 }
 // watchpart
 let containerwatch = document.getElementById("containerwatch");
-var countdowndate = new Date("feb 28,2023 00:00:00").getTime();
+var countdowndate = new Date("march 02,2023 00:00:00").getTime();
 var x = setInterval(() => {
   var now = new Date().getTime();
   var distace = countdowndate - now;
@@ -44,23 +44,23 @@ var x = setInterval(() => {
   document.getElementById("sec").innerHTML = sec;
 }, 1000);
 // ********************************************
-var swiper = new Swiper(".swiper", {
-  slidesPerView: 6,
-  direction: getDirection(),
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  on: {
-    resize: function () {
-      swiper.changeDirection(getDirection());
-    },
-  },
-});
+// var swiper = new Swiper(".swiper", {
+//   slidesPerView: 6,
+//   direction: getDirection(),
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+//   on: {
+//     resize: function () {
+//       swiper.changeDirection(getDirection());
+//     },
+//   },
+// });
 
-function getDirection() {
-  var windowWidth = window.innerWidth;
-  var direction = window.innerWidth <= 760 ? "vertical" : "horizontal";
+// function getDirection() {
+//   var windowWidth = window.innerWidth;
+//   var direction = window.innerWidth <= 760 ? "vertical" : "horizontal";
 
-  return direction;
-}
+//   return direction;
+// }
