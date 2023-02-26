@@ -2,16 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>CAMERAS'S PAGE</title>
-    <link rel="stylesheet" href="product.css" />
+    <link
+      rel="stylesheet"
+      href="product.css"
+    />
 
     <script
       src="https://kit.fontawesome.com/2b408d1c6c.js"
       crossorigin="anonymous"
     ></script>
-
   </head>
   <body>
     <nav id="navbar">
@@ -35,10 +43,11 @@
 
       <div id="secondline">
         <div id="secleft">
-          <img
-            src="Screenshot (30).png"
-            alt="error"
-          />
+          <a href="./index.html">
+            <img
+              src="Screenshot (30).png"
+              alt="error"
+          /></a>
         </div>
         <div id="secright">
           <div id="forsearch">
@@ -114,7 +123,6 @@
     </nav>
 
     <div id="parent">
-      
       <div id="product"></div>
     </div>
 
@@ -201,26 +209,24 @@
 <script src="mens.js"></script>
 
 <script>
-    let CameraData = []
+  let CameraData = [];
   // let mensAPI ="https://mensdataa.onrender.com/mensdata"
   fetch("https://hot-flowers.onrender.com/data")
     .then((res) => {
       return res.json();
     })
     .then((data) => {
-        for(let i=0;i<data.length;i++){
-            if(data[i].category=="cameras"){
-                CameraData.push(data[i])
-            }
+      for (let i = 0; i < data.length; i++) {
+        if (data[i].category == "cameras") {
+          CameraData.push(data[i]);
         }
+      }
       //   console.log(data);
       displayData(CameraData);
       //   demo(data)
     });
 
-    
-    
-    //console.log(CameraData)
+  //console.log(CameraData)
   function displayData(data) {
     // console.log(data)
     document.querySelector("#product").textContent = null;
@@ -236,7 +242,7 @@
       img.setAttribute("src", el.image);
 
       let div_detail = document.createElement("div");
-      div_detail.setAttribute("class", "cardDetail")
+      div_detail.setAttribute("class", "cardDetail");
 
       let title = document.createElement("h2");
       title.innerText = el.title;
@@ -245,7 +251,7 @@
       description.innerText = el.Desc;
 
       let price = document.createElement("h3");
-      price.innerText =  el.price;
+      price.innerText = el.price;
 
       let category = document.createElement("p");
       category.innerText = "Category " + el.category;
@@ -302,10 +308,10 @@
 
       wish.setAttribute("class", "add-to-cart");
       div_img.append(img);
-      div_detail.append( description, category,brand, price)
+      div_detail.append(description, category, brand, price);
       div_btn.append(wish, buy);
-      
-      div.append(div_img,title, div_detail, div_btn );
+
+      div.append(div_img, title, div_detail, div_btn);
 
       document.querySelector("#product").append(div);
     });
@@ -348,8 +354,6 @@
       // console.log(sorthtl)
       displayData(sorthtl);
     });
-
-    
 
     // ******************SORT BY PRICE***************
 
