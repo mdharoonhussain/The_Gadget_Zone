@@ -17,6 +17,7 @@ signup.addEventListener("submit",(e)=>{
            }
            loginarr.push(obj)
            localStorage.setItem("register",JSON.stringify(loginarr))
+           alert("Signup Succesfully")
         
             
    
@@ -34,7 +35,7 @@ login.addEventListener("submit",(e)=>{
     console.log(formlogin)
    for(let i=0;i<data.length;i++){
     if(data[i].email==formlogin.email && data[i].password==formlogin.password){
-       window.location.replace("login.html")
+       window.location.replace("index.html")
         return
     }
    }alert("Invalid information")
