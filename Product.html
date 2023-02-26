@@ -2,16 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>PRODUCT'S PAGE</title>
-    <link rel="stylesheet" href="product.css" />
+    <link
+      rel="stylesheet"
+      href="product.css"
+    />
 
     <script
       src="https://kit.fontawesome.com/2b408d1c6c.js"
       crossorigin="anonymous"
     ></script>
-
   </head>
   <body>
     <nav id="navbar">
@@ -89,7 +97,9 @@
                 </ul>
               </ul>
             </div>
-            <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+            <a href="./Carts.html"
+              ><i class="fa-solid fa-cart-shopping fa-2x"></i
+            ></a>
           </div>
         </div>
       </div>
@@ -121,9 +131,24 @@
         <h4>CATEGORIES</h4>
 
         <div id="CATEGORIES">
-          <p><input type="checkbox" id="All" />All</p>
-          <p><input type="checkbox" id="cameras"/>cameras</p>
-          <p><input type="checkbox" id="lenses" />lenses</p>
+          <p>
+            <input
+              type="checkbox"
+              id="All"
+            />All
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="cameras"
+            />cameras
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="lenses"
+            />lenses
+          </p>
           <!-- <p><input type="checkbox" />Full Sleeve</p>
           <p><input type="checkbox" />Hoodie</p>
           <p><input type="checkbox" />Sweater</p> -->
@@ -132,31 +157,96 @@
         <h4>BRAND</h4>
 
         <div id="BRAND">
-          <p><input type="checkbox" id="all" />All</p>
-          <p><input type="checkbox" id="Panasonic" />Panasonic</p>
-          <p><input type="checkbox" id="Canon" />Canon</p>
-          <p><input type="checkbox" id="Nikon" />Nikon</p>
-          <p><input type="checkbox" id="Kodak" />Kodak</p>
-          <p><input type="checkbox" id="Pentax" />Pentax</p>
-          <p><input type="checkbox" id="Sony" />Sony</p>
-          <p><input type="checkbox" id="Sigma" />Sigma</p>
-          <p><input type="checkbox" id="Kipon" />Kipon</p>
+          <p>
+            <input
+              type="checkbox"
+              id="all"
+            />All
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="Panasonic"
+            />Panasonic
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="Canon"
+            />Canon
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="Nikon"
+            />Nikon
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="Kodak"
+            />Kodak
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="Pentax"
+            />Pentax
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="Sony"
+            />Sony
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="Sigma"
+            />Sigma
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="Kipon"
+            />Kipon
+          </p>
         </div>
 
         <h4>PRICE</h4>
 
         <div id="PRICE">
           <p>
-            <input type="checkbox" id="filterByprice" value="HTL" />High To Low
+            <input
+              type="checkbox"
+              id="filterByprice"
+              value="HTL"
+            />High To Low
           </p>
-          <p><input type="checkbox" id="Price_LTH" value="LTH" />Low To High</p>
+          <p>
+            <input
+              type="checkbox"
+              id="Price_LTH"
+              value="LTH"
+            />Low To High
+          </p>
         </div>
 
         <h4>RATING</h4>
 
         <div id="RATING">
-          <p><input type="checkbox" id="rating_HTL" />High To Low</p>
-          <p><input type="checkbox" id="rating_LTH" />Low To High</p>
+          <p>
+            <input
+              type="checkbox"
+              id="rating_HTL"
+            />High To Low
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="rating_LTH"
+            />Low To High
+          </p>
         </div>
       </div>
       <div id="product"></div>
@@ -270,7 +360,7 @@
       img.setAttribute("src", el.image);
 
       let div_detail = document.createElement("div");
-      div_detail.setAttribute("class", "cardDetail")
+      div_detail.setAttribute("class", "cardDetail");
 
       let title = document.createElement("h2");
       title.innerText = el.title;
@@ -279,7 +369,7 @@
       description.innerText = el.Desc;
 
       let price = document.createElement("h3");
-      price.innerText =  el.price;
+      price.innerText = el.price;
 
       let category = document.createElement("p");
       category.innerText = "Category " + el.category;
@@ -336,10 +426,10 @@
 
       wish.setAttribute("class", "add-to-cart");
       div_img.append(img);
-      div_detail.append( description, category,brand, price)
+      div_detail.append(description, category, brand, price);
       div_btn.append(wish, buy);
-      
-      div.append(div_img,title, div_detail, div_btn );
+
+      div.append(div_img, title, div_detail, div_btn);
 
       document.querySelector("#product").append(div);
     });
@@ -382,8 +472,6 @@
       // console.log(sorthtl)
       displayData(sorthtl);
     });
-
-    
 
     // ******************SORT BY PRICE***************
 
