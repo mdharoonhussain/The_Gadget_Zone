@@ -74,18 +74,39 @@
       ::placeholder{
         text-align: center;
       }
-      .infopro{
+      .camera{
+            display: flex;
+            width: 90%;
+            margin: auto;
+            background-color: white;
+            border-radius: 10px;
+            margin-top: 10px;
+
+        }
+        #main{
+            
+            width: 100%;
+            margin: auto;
+            background-color: #F2F2F2;
+            margin-top: 10px;
+        }
+        button{
+            width: 15%;
+            height: 30px;
+            margin-left: 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgb(19, 19, 80);
+            color: white;
+        }
+        .infopro{
         text-decoration: none;
         color: black;
         font-weight: bold;
         font-size: larger;
        
       }
-      button{
-         background-color: rgb(19, 19, 80);
-         color: white;
-      }
-      
+       
     </style>
   </head>
 
@@ -258,7 +279,7 @@
             />
           </div> -->
         </div>
-
+<!-- 
         <div class="report-container">
           <div class="report-header">
             <h1 class="recent-Articles">Latest Orders</h1>
@@ -338,11 +359,14 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="report-container">
           <div class="report-header">
-            <h1 class="recent-Articles">Add Product</h1>
+            <h1 class="recent-Articles">All Product</h1>
            
+          </div>
+          <div id="allproduct">
+            
           </div>
 
           <div class="report-body">
@@ -352,31 +376,7 @@
               <h3 class="t-op">Price</h3>
               <h3 class="t-op">Status</h3>
             </div> -->
-            <label for="id">Enter product id</label>
-            <input type="number" id="productid" placeholder="Enter product id">
-            <br>
-          
-              <label for="image">Enter Img Url</label>
-              <input type="text" id="image" placeholder="Enter Img Url">
-              <br>
-              <label for="title">Enter product title</label>
-              <input type="text" id="title" placeholder="Enter product title">
-              <br>
-              <label for="brand">Enter product brand</label>
-              <input type="text" id="brand" placeholder="Enter product brand">
-              <br>
-              <label for="category">Enter product category</label>
-              <input type="text" id="category" placeholder="Enter product brand">
-              <br>
-              <label for="description">Enter product description</label>
-              <input type="text" id="description" placeholder="Enter product description">
-              <br>
-              <label for="price">Enter product price</label>
-              <input type="number" id="price" placeholder="Enter product price">
-              <br>
-              <button id="addproduct">Add product</button>
-              <br>
-
+            
            
             <div class="items">
               <div class="item1">
@@ -446,8 +446,77 @@
         </div>
       </div>
     </div>
+    
+
     <script src="./login_admin_dashboard.js"></script>
-    <script src="addproduct.js"></script>
+    <!-- <script src="addproduct.js"></script> -->
    
   </body>
+  <script>
+    let main=document.getElementById("allproduct")
+    let editarr=JSON.parse(localStorage.getItem("editproduct"))||[]
+fetchdata()
+async function fetchdata(){
+    try {
+        let res=await fetch("https://hot-flowers.onrender.com/data")
+        let data=await res.json();
+        console.log(data)
+        display(data)
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+function display(data){
+    data.forEach(element => {
+        
+            let div=document.createElement("div")
+        div.setAttribute("class","camera")
+        let div1=document.createElement("div")
+        let div2=document.createElement("div")
+        let img=document.createElement("img")
+        img.setAttribute("src",element.image)
+        let title=document.createElement("h2")
+        title.innerText=element.title
+        let brand=document.createElement("h3")
+        brand.innerText=element.brand
+        let category=document.createElement("h3")
+        category.innerText=element.category
+        let price=document.createElement("p")
+        price.innerText=element.price
+        let del=document.createElement("button")
+        del.innerText="DELETE"
+        del.addEventListener("click",async()=>{
+            try {
+                let res=await fetch(`https://hot-flowers.onrender.com/data/${element.id}`,{
+                    method:"DELETE",
+                   
+
+                })
+
+               
+              
+                
+            } catch (error) {
+                console.log(error)
+            }
+        })
+        let edit=document.createElement("button")
+
+        edit.innerText="EDIT"
+        edit.addEventListener("click",()=>{
+            editarr.push(element)
+            localStorage.setItem("editproduct",JSON.stringify(editarr))
+            window.location.replace("editproduct.html")
+        })
+        div1.append(img)
+        div2.append(title,brand,category,price,del,edit)
+        div.append(div1,div2)
+        main.append(div)
+        
+        
+
+    });
+}
+  </script>
 </html>
