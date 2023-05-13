@@ -6,7 +6,7 @@ Our Team Members
 <br>
 <a href="(https://github.com/mdharoonhussain)">1. Md Haroon Hussain </a>
 <br>
-<a href="(https://github.com/raxitamathukiya)">2. Rakshita Mathukiya  </a>
+<a href="(https://github.com/raxitamathukiya)">2. Raxita Mathukiya  </a>
 <br>
 <a href="https://github.com/krishna-4114">3. HariKrishna kelwa</a>
 <br>
