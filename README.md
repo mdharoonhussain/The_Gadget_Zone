@@ -44,6 +44,5 @@ here you can see the admin login page screenshot
 ![adminlogin](https://user-images.githubusercontent.com/96863579/221486014-9c8b3cef-efe4-4c12-b736-f8e48697dbd9.jpg)
 
 
-here you can see the admin home page screenshot
-![Screenshot (1)](https://user-images.githubusercontent.com/96863579/221485872-a1d86263-093b-4de6-a795-97a9608913a6.png)
+
 
